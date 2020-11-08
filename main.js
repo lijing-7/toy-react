@@ -5,7 +5,7 @@ class Myconponent extends Component{
     constructor() {
         super();
         this.state = {
-            a:'1',
+            a:1,
             b:'456798412'
         }
     }
@@ -13,8 +13,10 @@ class Myconponent extends Component{
     render(){
         return <div>
             <h1>这是组件</h1>
+            <button onclick={()=>{this.setState({a:this.state.a + 1})}}>点击</button>
+            <div>{this.state.a.toString()}</div>
             <div>{this.state.b}</div>
-            {this.children}
+            {/*{this.children}*/}
         </div>
     }
 
