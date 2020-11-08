@@ -1,0 +1,7 @@
+/*! runtime requirements:  */
+
+/*! unknown exports (runtime-defined) */
+
+/*!*****************!*\
+  !*** ./main.js ***!
+  \*****************/
